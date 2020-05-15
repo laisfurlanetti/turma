@@ -1,0 +1,7 @@
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\bin\Debug\turma.exe.config
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\bin\Debug\turma.exe
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\bin\Debug\turma.pdb
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\obj\Debug\turma.csprojAssemblyReference.cache
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\obj\Debug\turma.csproj.CoreCompileInputs.cache
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\obj\Debug\turma.exe
+C:\Users\Avatar\Desktop\Aulas\Exercicios repeticao\turma\obj\Debug\turma.pdb
