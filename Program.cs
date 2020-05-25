@@ -11,17 +11,23 @@ namespace turma
         static void Main(string[] args)
         {
             int turma;
-            int totalalunos;
-           
 
             Console.Write("Quantas turmas? ");
             turma = Convert.ToInt32(Console.ReadLine());
 
+            int[] listaaluno = ObterListaAluno(turma);
+
+            var media = listaaluno.Average();
+            Console.Write("A media e: " + media);
+            Console.Read();
+        }
+        public static int[] ObterListaAluno(int turma)
+        {
             int[] listaaluno = new int[turma];
 
             for (int i = 0; i < turma; i++)
             {
-                Console.Write("Quantos alunos tem na turma " + (i+1) + ": ");
+                Console.Write("Quantos alunos tem na turma " + (i + 1) + ": ");
                 var qtdalunos = Convert.ToInt32(Console.ReadLine());
 
                 if (qtdalunos <= 40)
@@ -30,17 +36,15 @@ namespace turma
                 }
                 else
                 {
-                   while (qtdalunos > 40)
+                    while (qtdalunos > 40)
                     {
                         Console.Write("Quantidade de aluno maior que o informado, digite novamente: ");
                         qtdalunos = Convert.ToInt32(Console.ReadLine());
                     }
-                    listaaluno[i] = qtdalunos;                    
-                }                
+                    listaaluno[i] = qtdalunos;
+                }
             }
-            var media = listaaluno.Average();
-            Console.Write("A media e: " + media);
-            Console.Read();
+            return listaaluno;
         }
     }
 }
